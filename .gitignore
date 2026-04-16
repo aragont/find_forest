@@ -1,0 +1,1 @@
+Nothing needs to be added to .gitignore since only a Python source file (`detect_forest.py`) was added, which is a source code file that should be tracked in version control. No build artifacts, dependencies, temporary files, or other ignorable content was detected in the changes.
