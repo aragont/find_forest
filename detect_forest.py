@@ -118,8 +118,8 @@ def create_forest_mask(dem_path: str, output_path: str,
                 idx2 = edge_indices[j + 1]
                 
                 # Пропускаем если слишком далеко
-                if idx2 - idx1 > distance_threshold * 2:
-                    continue
+                #if idx2 - idx1 > distance_threshold * 2:
+                #    continue
                 
                 h1 = row_data[idx1]
                 h2 = row_data[idx2]
